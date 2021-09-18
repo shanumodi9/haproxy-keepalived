@@ -1,14 +1,7 @@
-## MorningSpace Lab
-
-晴耕实验室
-
-[![](https://morningspace.github.io/assets/images/banner.jpg)](https://morningspace.github.io)
-
-# HAProxy + Keepalived: Build Your Load Balancer in 30 Minutes!
+# HAProxy + Keepalived: Build Your Load Balancer.
 
 Keywords: HAProxy, Keepalived, Docker, SSL, nginx, Load Balance
 
-Videos: Check the [video](https://youtu.be/jzXzUojGneA) that helps you lively walk through the instructions on how to play this lab project. More videos on this lab project can be found [here](http://v.youku.com/v_show/id_XMzkyNTAzODg3Ng==.html?f=51967588).
 
 ## Overview
 
@@ -20,13 +13,8 @@ As the figure depicted below, there are two web servers, `myweb1` and `myweb2`, 
 
 In front of the web servers, there are two load balancers, `mylb1` and `mhylb2`, which are the containers built from the image `morningspace/lab-lb`. Both haproxy and keepalived are installed. The haproxy connects to the two web servers, while keepalived is to check whether haproxy is available or not. We define `mylb` as master node, and `mylb2` as backup node to support haproxy failover. It also exposes a virutal IP that can be accessed by client.
 
-![](docs/images/architecture.png)
 
-Please check the below instructions to learn how to play with it.
-
-You can also find the online slides [here](https://morningspace.github.io/lab-load-balancing/slides).
-
-For more lab projects from MorningSpace Lab, please check [morningspace.github.io](https://morningspace.github.io).
+Please check the below instructions and follow it.
 
 ## Instructions
 
@@ -229,8 +217,3 @@ You can also verify it using `ip` command in both containers, to see if the virt
 
 Run `curl` in either of the two load balancer containers. Send request to the virutal IP and see if it still returns the content retrieved from web servers.
 
-## Troubleshooting
-
-* Add `tune.ssl.default-dh-param 2048` if met "[WARNING] 277/024013 (214) : Setting tune.ssl.default-dh-param to 1024 by default, if your workload permits it you should set it to at least 2048. Please set a value >= 1024 to make this warning disappear."
-
-* Run `service rsyslog restart` if met "[ALERT] 277/004806 (177) : sendmsg logger #1 failed: No such file or directory (errno=2)"
