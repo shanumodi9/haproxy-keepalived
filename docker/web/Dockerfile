@@ -1,4 +1,4 @@
-FROM nginx
+FROM ngin
 
 LABEL maintainer="morningspace@yahoo.com"
 
