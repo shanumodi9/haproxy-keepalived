@@ -1,4 +1,4 @@
-FROM ubuntu:bioni
+FROM ubuntu:bionic
 
 LABEL maintainer="morningspace@yahoo.com"
 
