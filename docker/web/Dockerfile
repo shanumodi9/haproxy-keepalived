@@ -5,7 +5,7 @@ FROM nginx
 COPY ./conf ./docker/web/entrypoint.sh /tmp/
 
 RUN \
-# install packages
+
     apt-get update && \
     apt-get install --no-install-recommends --no-install-suggests -y \
     vim && \
