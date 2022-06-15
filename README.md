@@ -1,6 +1,6 @@
 # HAProxy + Keepalived: Build Your Load Balancer.
 
-Keywords: HAProxy, Keepalived, Docker, SSL, nginx, Load Balance
+: HAProxy, Keepalived, Docker, SSL, nginx, Load Balance
 
 
 ## Overview
