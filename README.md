@@ -32,7 +32,7 @@ docker pull morningspace/lab-lb
 docker pull morningspace/lab-web
 ```
 
-### Launch Web Servers
+# Launch Web Servers
 
 Launch two docker containers for the image `morningspace/lab-web` as web servers:
 ```
