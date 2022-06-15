@@ -3,7 +3,7 @@
 : HAProxy, Keepalived, Docker, SSL, nginx, Load Balance
 
 
-## Overview
+## Overvie
 
 This is the lab project to demonstrate how to set up highly available load balancing service using HAProxy and Keepalived.
 
