@@ -1,4 +1,4 @@
-# HAProxy + Keepalived: Build Your Load Balancer.
+# HAProxy + Keepalived: Build Your Load Ba.
 
 : HAProxy, Keepalived, Docker, SSL, nginx, 
 
