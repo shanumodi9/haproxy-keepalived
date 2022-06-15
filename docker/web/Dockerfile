@@ -1,6 +1,6 @@
 FROM nginx
 
-LABEL maintainer="morningspace@yahoo.com"
+
 
 COPY ./conf ./docker/web/entrypoint.sh /tmp/
 
