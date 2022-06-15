@@ -16,7 +16,7 @@ In front of the web servers, there are two load balancers, `mylb1` and `mhylb2`,
 
 Please check the below instructions and follow it.
 
-## Instructions
+
 
 ### Build or Pull Docker Images
 
